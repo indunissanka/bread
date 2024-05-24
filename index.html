@@ -109,7 +109,7 @@
             const formData = new FormData(form);
 
             // Fetch current SKU counts and check the limits
-            fetch (https://script.google.com/macros/s/AKfycbyR3ueGTzPQlpzeEBMyYOMNrXIosLM0ARzUdLenGuncRw6rd-8aw4Jy2eGP9m2Yu9lF/exec?sku_check=true)
+            fetch (https://script.google.com/macros/s/AKfycby5ms7jMIEv1bfyalm4jMCrgAFdU5jZsSCrQMRgKIbE_bSj4JtLdp-QJf4K6Y5BT4k/exec?sku_check=true)
                 .then(response => response.json())
                 .then(data => {
                     const product1Quantity = parseInt(formData.get('product1_quantity'), 10);
